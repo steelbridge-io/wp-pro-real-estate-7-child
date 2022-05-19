@@ -7,6 +7,11 @@ h1 {
 
 h2 {
   font-size: 18px;
+  color: $brown;
+}
+h2.elementor-heading-title {
+  font-size: 21px;
+  color: $brown !important;
 }
 
 h4 {
