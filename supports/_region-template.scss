@@ -1,0 +1,38 @@
+/** Region Template */
+
+#region-section-template {
+  h1 {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 34px;
+  }
+  h2 {
+    font-style: italic;
+    font-size: 21px;
+    font-weight: normal;
+  }
+  h3 {
+    font-size: 22px;
+    line-height: 24px;
+    color: $brown;
+    font-weight: normal;
+  }
+}
+
+
+#region-listings {
+  .listing-list {
+    figure {
+      width: 100% !important;
+    }
+    .list-listing-info {
+      width: 100% !important;
+    }
+    .list-agent-image, .list-agent-info {
+      display: none;
+    }
+    .price {
+      display: none;
+    }
+  }
+}

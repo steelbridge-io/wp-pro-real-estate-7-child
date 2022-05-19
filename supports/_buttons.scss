@@ -1,0 +1,57 @@
+a:hover {
+  opacity: 1.0 !important;
+}
+
+.ah-button-yellow .elementor-widget-container .elementor-button-wrapper .elementor-button {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fff6af !important;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fff6af !important;
+  box-shadow: inset 0px 1px 0px 0px #fff6af !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.05, #ffec64), color-stop(1, #ffab23)) !important;
+  background: -moz-linear-gradient(center top, #ffec64 5%, #ffab23 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23') !important;
+  background-color: #ffec64 !important;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  color: #333333;
+  font-family: arial;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.618em 3.618em;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #ffee66;
+}
+
+
+.ah-button-yellow-small {
+  .elementor-widget-container {
+    text-align: center;
+    .elementor-button-wrapper {
+      .elementor-button {
+        -moz-box-shadow: inset 0px 1px 0px 0px #fff6af !important;
+        -webkit-box-shadow: inset 0px 1px 0px 0px #fff6af !important;
+        box-shadow: inset 0px 1px 0px 0px #fff6af !important;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0.05, #ffec64), color-stop(1, #ffab23)) !important;
+        background: -moz-linear-gradient(center top, #ffec64 5%, #ffab23 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23') !important;
+        background-color: #ffec64 !important;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        border: 1px solid #ffaa22;
+        display: inline-block;
+        color: #333333;
+        font-family: arial;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: .5em 2em;
+        text-decoration: none;
+        text-align: center;
+        text-shadow: 1px 1px 0px #ffee66;
+      }
+    }
+  }
+}

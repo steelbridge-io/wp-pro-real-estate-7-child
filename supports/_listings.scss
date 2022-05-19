@@ -1,0 +1,54 @@
+/** Listings */
+
+#listing-template {
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: normal;
+    color: $brown;
+  }
+  h2.elementor-heading-title {
+    font-style: italic;
+    font-size: 1.8rem;
+    color: $dark-green;
+    font-weight: normal;
+  }
+}
+
+.ct-elementor-listings-single-property-info {
+  margin-left: 1em;
+}
+
+#listing-details {
+  .left, .right {
+    float: none;
+    padding-right: 5px;
+  }
+  li {
+    border: none;
+    display: inline;
+    list-style-type: none;
+    padding-right: 3em;
+    float: left;
+  }
+}
+
+#listing-ct-image-slider {
+  /*display: none;*/
+}
+
+#listings-five-gallery {
+  display: none;
+  &.hide-this {
+    display: none;
+  }
+  &.show-this {
+    display: initial !important;
+  }
+}
+
+ul.item-grid.grid-three-item {
+  li.grid-item.col{
+    background-position: center !important;
+  }
+}

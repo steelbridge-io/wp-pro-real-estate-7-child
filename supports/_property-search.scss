@@ -1,0 +1,29 @@
+/** Property Search */
+
+.elementor.elementor-85.elementor-location-footer {
+   /* background-color: $white; */
+}
+
+.search-listings-wrap {
+    margin: 1.618em 1em;
+}
+.side-results {
+    background: $side-result;
+}
+
+@media (min-width: 1024px ) {
+    .side-results {
+        padding-left: 0.5em;
+        margin-bottom: 1.618em !important;
+    }
+    .listings-results-map {
+        margin-bottom: 1.618em !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    #search-listing-mapper {
+        padding-left: 0 !important;
+    }
+}
+

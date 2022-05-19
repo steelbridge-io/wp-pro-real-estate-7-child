@@ -1,0 +1,20 @@
+/** Slider - Carousel */
+.carousel-control {
+  padding-top: 10%;
+  width: 5%;
+  opacity: 0.8;
+}
+
+.right.carousel-control.range_slides_carousel_control_right,
+.left.carousel-control.range_slides_carousel_control_left {
+  background-image: none !important;
+  top: -63%;
+}
+.fa.fa-chevron-right.range_slides_carousel_control_icons,
+.fa.fa-chevron-left.range_slides_carousel_control_icons {
+  font-size: 46px;
+}
+
+.carousel-inner.range_slides_carousel_inner {
+  margin-top: 1em;
+}
