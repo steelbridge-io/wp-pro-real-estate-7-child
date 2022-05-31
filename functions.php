@@ -34,9 +34,7 @@
      
      wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() . '/listing-slider/font-awesome-4.6.3/css/font-awesome.min.css', array(), '2018', 'all' );
  
-     
-     
-     
+
      if ( 'listings' == get_post_type() ) {
       
       wp_register_style('bootstrap-listings', get_stylesheet_directory_uri() . '/listing-slider/css/bootstrap.min.css', array(), '', 'all');
@@ -95,7 +93,8 @@
          <div id="advanced-search-inner" class="quote-form front-page-modal">
          <h3>Request A Quote</h3>' .
     //do_shortcode('[gravityform id="30" name="Request A Quote" ajax="true" title="true" description="false"]')
-    do_shortcode('[gravityform id="34" name="Request A Quote" ajax="true" title="false" description="false"]')
+    //do_shortcode('[gravityform id="34" name="Request A Quote" ajax="true" title="false" description="false"]')
+      do_shortcode('[gravityform id="21" name="Request A Quote" ajax="true" title="false" description="false"]')
     . '</div>
         </div>
        </div>

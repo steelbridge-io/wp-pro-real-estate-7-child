@@ -1,0 +1,23 @@
+/** Gravity Forms */
+.ui-datepicker-header {
+  padding: 1em 0 4em 0;
+}
+
+.ui-datepicker .ui-datepicker-header .ui-datepicker-month,
+.ui-datepicker .ui-datepicker-header .ui-datepicker-year {
+  max-height: 40px !important;
+}
+
+.ui-datepicker-calendar {
+  background-color: $white;
+}
+
+.ui-datepicker-other-month,
+.ui-datepicker tbody td {
+  padding: .5em !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+  height: 30px !important;
+  width: 30px !important;
+}
