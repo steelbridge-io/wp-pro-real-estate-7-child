@@ -11,6 +11,9 @@ jQuery(function($) {
             $("#listings-five-gallery").addClass('hide-this');
         }
     });
+
+    $("#listings-five-gallery").addClass('hide-this');
+
 })
 
 

@@ -40,29 +40,27 @@
       wp_register_style('bootstrap-listings', get_stylesheet_directory_uri() . '/listing-slider/css/bootstrap.min.css', array(), '', 'all');
       wp_enqueue_style('bootstrap-listings');
  
-      wp_register_style( 'thumbnail-image', get_stylesheet_directory_uri() . '/listing-slider/css/thumbnail_image_carousel.css', array(), '2018', 'all' );
-      wp_enqueue_style( 'thumbnail-image' );
+      //wp_register_style( 'thumbnail-image', get_stylesheet_directory_uri() . '/listing-slider/css/thumbnail_image_carousel.css', array(), '2018', 'all' );
+      //wp_enqueue_style( 'thumbnail-image' );
  
-      wp_register_style( 'gpproduct', get_stylesheet_directory_uri() . '/listing-slider/css/gp_product_carousel_advance.css', array(), '2018', 'all' );
-      wp_enqueue_style( 'gpproduct' );
+     // wp_register_style( 'gpproduct', get_stylesheet_directory_uri() . '/listing-slider/css/gp_product_carousel_advance.css', array(), '2018', 'all' );
+      //wp_enqueue_style( 'gpproduct' );
       
     
       wp_register_script('oldjquery', 'https://code.jquery.com/jquery-1.12.4.min.js', array(), '1.12.4', false);
       wp_enqueue_script('oldjquery');
  
-      wp_enqueue_script('custom-js', get_stylesheet_directory_uri() . '/js/custom.js', array(), '', true);
+      //wp_enqueue_script('custom-js', get_stylesheet_directory_uri() . '/js/custom.js', array(), '', true);
  
       wp_register_script('bootstrap-js', get_stylesheet_directory_uri() . '/listing-slider/js/bootstrap.min.js', array(), '1.12.4', true);
       wp_enqueue_script('bootstrap-js');
     
-      wp_register_script('touchSwipe', get_stylesheet_directory_uri() . '/listing-slider/js/jquery.touchSwipe.min.js', array(), '1.6.9', true);
-      wp_enqueue_script('touchSwipe');
+      //wp_register_script('touchSwipe', get_stylesheet_directory_uri() . '/listing-slider/js/jquery.touchSwipe.min.js', array(), '1.6.9', true);
+      //wp_enqueue_script('touchSwipe');
     
-      wp_register_script('bootstrap-carousel', get_stylesheet_directory_uri() . '/listing-slider/js/responsive_bootstrap_carousel.js', array(), '1.6.9', true);
-      wp_enqueue_script('bootstrap-carousel');
+      //wp_register_script('bootstrap-carousel', get_stylesheet_directory_uri() . '/listing-slider/js/responsive_bootstrap_carousel.js', array(), '1.6.9', true);
+      //wp_enqueue_script('bootstrap-carousel');
      }
-     
-     
      
      if ( 'listings' != get_post_type() ) {
  
@@ -73,9 +71,7 @@
       wp_enqueue_script('bootstrap-js-v5');
       
      }
-     
- 
-  
+
  }
  
  add_action(  'wp_enqueue_scripts', 'realestate_child_enqueue_styles' );
@@ -91,11 +87,9 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         <div class="10 columns request-quote-display-desktop">
          <div id="advanced-search-inner" class="quote-form front-page-modal">
-         <h3>Request A Quote</h3>' .
-    //do_shortcode('[gravityform id="30" name="Request A Quote" ajax="true" title="true" description="false"]')
-    //do_shortcode('[gravityform id="34" name="Request A Quote" ajax="true" title="false" description="false"]')
-      do_shortcode('[gravityform id="21" name="Request A Quote" ajax="true" title="false" description="false"]')
-    . '</div>
+         <h3>Request A Quote</h3>'
+       . do_shortcode('[gravityform id="21" name="Request A Quote" ajax="true" title="false" description="false"]') .
+        '</div>
         </div>
        </div>
        <div class="modal-footer">
