@@ -1,7 +1,31 @@
 /** Front Page */
 
+#fp-search {
+  .elementor-widget-container {
+    #advanced_search {
+      display: flex;
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+
+}
+
+.owl-item {
+  margin-right: 17px !important;
+}
+.ct-listings-carousel-nav {
+  margin-right: 7px !important;
+}
+
 #front-page-template {
   .h2-large {
     font-size: 1.8rem;
+  }
+}
+
+#owl-listings-carousel-2f5882a {
+  .owl-dots {
+    display: none;
   }
 }

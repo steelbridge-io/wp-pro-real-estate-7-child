@@ -33,20 +33,6 @@
   }
 }
 
-#listing-ct-image-slider {
-  /*display: none;*/
-}
-
-#listings-five-gallery {
-  display: none;
-  &.hide-this {
-    display: none;
-  }
-  &.show-this {
-    display: initial !important;
-  }
-}
-
 ul.item-grid.grid-three-item {
   li.grid-item.col{
     background-position: center !important;
